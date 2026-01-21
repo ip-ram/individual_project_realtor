@@ -44,16 +44,30 @@ def _format_price_rub(price: int) -> str:
 
 def _print_apartments(title: str, items: Iterable[Apartment]) -> None:
     print("\n" + title)
-    print("-" * len(title))
+    print("=" * 120)
+    
+    # Заголовок таблицы
+    header = "|| УЛИЦА || ДОМ || КВАРТИРА || КОМНАТЫ || ПЛОЩАДЬ ОБЩ. || ПЛОЩАДЬ ЖИЛ. || ЭТАЖ || ВЛАДЕЛЕЦ || ЦЕНА ||"
+    print(header)
+    print("=" * 120)
+    
+    # Строки таблицы
     for a in items:
-        print(
-            f"{a.address.format()} | "
-            f"комн: {a.rooms} | "
-            f"общ: {a.total_area} м² | жил: {a.living_area} м² | "
-            f"этаж: {a.floor}/{a.total_floors} | "
-            f"вл: {a.owner_last_name} | "
-            f"цена: {_format_price_rub(a.price)}"
-        )
+        # Форматируем каждое поле с выравниванием
+        street = a.address.street[:20].ljust(20)  # Ограничиваем длину улицы
+        house = str(a.address.house).rjust(3)
+        apartment = str(a.address.apartment).rjust(3)
+        rooms = str(a.rooms).rjust(3)
+        total_area = f"{a.total_area} м²".rjust(10)
+        living_area = f"{a.living_area} м²".rjust(10)
+        floor = f"{a.floor}/{a.total_floors}".rjust(8)
+        owner = a.owner_last_name[:12].ljust(12)  # Ограничиваем длину фамилии
+        price = _format_price_rub(a.price).rjust(15)
+        
+        row = f"|| {street} || {house} || {apartment} || {rooms} || {total_area} || {living_area} || {floor} || {owner} || {price} ||"
+        print(row)
+    
+    print("=" * 120)
 
 
 def _shell_sorted(items: list[Apartment], key_fn) -> list[Apartment]:
