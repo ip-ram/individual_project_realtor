@@ -1,0 +1,169 @@
+
+{
+  "apartments": [
+    {
+      "address": {
+        "street": "улица Ленина",
+        "house": "10",
+        "apartment": "25"
+      },
+      "rooms": "2",
+      "total_area": "54 м²",
+      "living_area": "32 м²",
+      "floor": "3",
+      "total_floors": "9",
+      "owner_last_name": "Иванов",
+      "price": "6 500 000 рублей"
+    },
+    {
+      "address": {
+        "street": "улица Пушкина",
+        "house": "7",
+        "apartment": "14"
+      },
+      "rooms": "1",
+      "total_area": "38 м²",
+      "living_area": "20 м²",
+      "floor": "5",
+      "total_floors": "5",
+      "owner_last_name": "Петров",
+      "price": "4 200 000 рублей"
+    },
+    {
+      "address": {
+        "street": "улица Гагарина",
+        "house": "22",
+        "apartment": "91"
+      },
+      "rooms": "3",
+      "total_area": "78 м²",
+      "living_area": "47 м²",
+      "floor": "10",
+      "total_floors": "16",
+      "owner_last_name": "Сидоров",
+      "price": "9 100 000 рублей"
+    },
+    {
+      "address": {
+        "street": "Советская улица",
+        "house": "5",
+        "apartment": "7"
+      },
+      "rooms": "1",
+      "total_area": "31 м²",
+      "living_area": "19 м²",
+      "floor": "2",
+      "total_floors": "4",
+      "owner_last_name": "Смирнов",
+      "price": "3 600 000 рублей"
+    },
+    {
+      "address": {
+        "street": "улица Кирова",
+        "house": "19",
+        "apartment": "64"
+      },
+      "rooms": "2",
+      "total_area": "60 м²",
+      "living_area": "35 м²",
+      "floor": "7",
+      "total_floors": "12",
+      "owner_last_name": "Волков",
+      "price": "7 100 000 рублей"
+    },
+
+    {
+      "address": { "street": "улица Мира", "house": "14", "apartment": "33" },
+      "rooms": "2",
+      "total_area": "58 м²",
+      "living_area": "33 м²",
+      "floor": "4",
+      "total_floors": "9",
+      "owner_last_name": "Кузнецов",
+      "price": "6 900 000 рублей"
+    },
+    {
+      "address": { "street": "улица Мира", "house": "3", "apartment": "5" },
+      "rooms": "1",
+      "total_area": "30 м²",
+      "living_area": "17 м²",
+      "floor": "1",
+      "total_floors": "3",
+      "owner_last_name": "Попов",
+      "price": "3 100 000 рублей"
+    },
+    {
+      "address": { "street": "Зелёная улица", "house": "27", "apartment": "101" },
+      "rooms": "4",
+      "total_area": "105 м²",
+      "living_area": "68 м²",
+      "floor": "14",
+      "total_floors": "16",
+      "owner_last_name": "Фёдоров",
+      "price": "12 500 000 рублей"
+    },
+    {
+      "address": { "street": "Центральная улица", "house": "1", "apartment": "9" },
+      "rooms": "2",
+      "total_area": "52 м²",
+      "living_area": "31 м²",
+      "floor": "3",
+      "total_floors": "5",
+      "owner_last_name": "Морозов",
+      "price": "6 000 000 рублей"
+    },
+    {
+      "address": { "street": "улица Горького", "house": "11", "apartment": "47" },
+      "rooms": "3",
+      "total_area": "76 м²",
+      "living_area": "45 м²",
+      "floor": "8",
+      "total_floors": "12",
+      "owner_last_name": "Николаев",
+      "price": "8 700 000 рублей"
+    },
+
+    {
+      "address": { "street": "Садовая улица", "house": "6", "apartment": "21" },
+      "rooms": "2",
+      "total_area": "59 м²",
+      "living_area": "34 м²",
+      "floor": "5",
+      "total_floors": "9",
+      "owner_last_name": "Егоров",
+      "price": "7 200 000 рублей"
+    },
+    {
+      "address": { "street": "Лесная улица", "house": "9", "apartment": "2" },
+      "rooms": "1",
+      "total_area": "34 м²",
+      "living_area": "19 м²",
+      "floor": "1",
+      "total_floors": "2",
+      "owner_last_name": "Павлов",
+      "price": "3 400 000 рублей"
+    },
+    {
+      "address": { "street": "Новая улица", "house": "25", "apartment": "88" },
+      "rooms": "3",
+      "total_area": "81 м²",
+      "living_area": "50 м²",
+      "floor": "9",
+      "total_floors": "14",
+      "owner_last_name": "Андреев",
+      "price": "9 500 000 рублей"
+    },
+    {
+      "address": { "street": "Южная улица", "house": "4", "apartment": "16" },
+      "rooms": "2",
+      "total_area": "55 м²",
+      "living_area": "32 м²",
+      "floor": "4",
+      "total_floors": "5",
+      "owner_last_name": "Захаров",
+      "price": "6 400 000 рублей"
+    }
+    
+    /* … аналогично, всего 50 квартир */
+  ]
+}
