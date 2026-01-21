@@ -108,7 +108,7 @@ def main() -> None:
     3 — вывод квартир в диапазоне цен [N1, N2]
     0 — выход
     """
-    json_path = "/home/ivanbaran/Projects/labPython/ind_project/aprtment.json"
+    json_path = "./aprtment.json"
     
     try:
         apartments, invalid_count, error_messages = read_apartments(json_path)
