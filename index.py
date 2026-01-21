@@ -22,8 +22,6 @@
 from __future__ import annotations
 
 from typing import Iterable
-
-import windows_methods  # noqa: F401  (подключение по заданию)
 from json_reader import Apartment, read_apartments
 from sort_methods import shell_sort
 
