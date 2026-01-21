@@ -24,7 +24,7 @@
 
 - sort_methods.py — реализации сортировок (Shell, Bubble)
 
-Запуск
+## Запуск
 ```bash
 python index.py
 ```
